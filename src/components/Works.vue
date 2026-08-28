@@ -103,11 +103,12 @@
 
 <script>
 // Images are in the public folder and will be available at root level
+// Using URL encoding for files with spaces
 const Digico           = '/Digico.jpg'
-const ArabianExpress   = '/Arabian Express.jpg'
+const ArabianExpress   = '/Arabian%20Express.jpg'
 const Signmedia        = '/Signmedia.jpg'
 const CK               = '/Chicking-Bangladesh.jpg'
-const OG               = '/Orbit Group.jpg'
+const OG               = '/Orbit%20Group.jpg'
 const Unilever         = '/Unilever.jpg'
 const PawPalace        = '/PawPalace.jpg'
 const Saintmartin      = '/SaintmartinParibahan.jpg'
