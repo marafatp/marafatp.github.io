@@ -93,7 +93,7 @@
 
 <script>
 import profilePIC from '/assets/Profile Picture Website.jpg'
-const cvFile = '/CV of Md Arafat Hossain.pdf' 
+const cvFile = '/CV of Md Arafat Hossain.pdf'
 import xLogo from "@/assets/x-logo.svg"
 
 export default {

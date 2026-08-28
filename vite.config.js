@@ -4,7 +4,7 @@ import { viteStaticCopy } from 'vite-plugin-static-copy';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
-  base: '/', // Set to root when using a custom domain
+  base: '/', // Root path for username.github.io sites
   build: {
     rollupOptions: {
       output: {
