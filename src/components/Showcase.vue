@@ -30,9 +30,10 @@
 
 
 <script>
-import Digico from '/assets/Digico.jpg'
-import ArabianExpress from '/assets/Arabian Express.jpg'
-import Signmedia from '/assets/Signmedia.jpg'
+// Images are in the public folder and will be available at root level
+const Digico = '/Digico.jpg'
+const ArabianExpress = '/Arabian%20Express.jpg'
+const Signmedia = '/Signmedia.jpg'
 
 export default {
   name: 'ShowcaseSection',
@@ -86,7 +87,8 @@ export default {
       });
     },
     handleImageError(e) {
-      e.target.src = Placeholder;
+      console.error('Image failed to load:', e.target.src);
+      e.target.style.display = 'none';
     }
   },
   mounted() {

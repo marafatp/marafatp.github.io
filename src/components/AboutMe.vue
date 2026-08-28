@@ -92,9 +92,8 @@
 </template>
 
 <script>
-import profilePIC from '/assets/Profile Picture Website.jpg'
+const profilePIC = '/Profile%20Picture%20Website.jpg'
 const cvFile = '/CV of Md Arafat Hossain.pdf'
-import xLogo from "@/assets/x-logo.svg"
 
 export default {
   name: 'AboutMeSection',
