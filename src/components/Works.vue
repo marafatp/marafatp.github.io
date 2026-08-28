@@ -102,17 +102,17 @@
 </template>
 
 <script>
-import Digico           from '/assets/Digico.jpg'
-import ArabianExpress   from '/assets/Arabian Express.jpg'
-import Signmedia        from '/assets/Signmedia.jpg'
-import CK               from '/assets/Chicking-Bangladesh.jpg'
-import OG               from '/assets/Orbit Group.jpg'
-import Unilever         from '/assets/Unilever.jpg'
-import PawPalace        from '/assets/PawPalace.jpg'
-import Saintmartin      from '/assets/SaintmartinParibahan.jpg'
-import ApicalLogo       from '/assets/ApicalInteriors.jpg'
-import GahwaLogo        from '/assets/GahwaPremiumCafe.jpg'
-import KloudLogo        from '../assets/Logo/KT_logo.jpeg'
+import Digico           from '/Digico.jpg'
+import ArabianExpress   from '/Arabian Express.jpg'
+import Signmedia        from '/Signmedia.jpg'
+import CK               from '/Chicking-Bangladesh.jpg'
+import OG               from '/Orbit Group.jpg'
+import Unilever         from '/Unilever.jpg'
+import PawPalace        from '/PawPalace.jpg'
+import Saintmartin      from '/SaintmartinParibahan.jpg'
+import ApicalLogo       from '/ApicalInteriors.jpg'
+import GahwaLogo        from '/GahwaPremiumCafe.jpg'
+import KloudLogo        from '/KT_logo.jpeg'
 
 export default {
   name: 'WorksSection',
