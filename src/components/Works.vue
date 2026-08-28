@@ -102,17 +102,18 @@
 </template>
 
 <script>
-import Digico           from '/Digico.jpg'
-import ArabianExpress   from '/Arabian Express.jpg'
-import Signmedia        from '/Signmedia.jpg'
-import CK               from '/Chicking-Bangladesh.jpg'
-import OG               from '/Orbit Group.jpg'
-import Unilever         from '/Unilever.jpg'
-import PawPalace        from '/PawPalace.jpg'
-import Saintmartin      from '/SaintmartinParibahan.jpg'
-import ApicalLogo       from '/ApicalInteriors.jpg'
-import GahwaLogo        from '/GahwaPremiumCafe.jpg'
-import KloudLogo        from '/KT_logo.jpeg'
+// Import images from src/assets/Logo - these will be processed by Vite
+import Digico           from '@/assets/Logo/Digico.jpg'
+import ArabianExpress   from '@/assets/Logo/Arabian Express.jpg'
+import Signmedia        from '@/assets/Logo/Signmedia.jpg'
+import CK               from '@/assets/Logo/Chicking-Bangladesh.jpg'
+import OG               from '@/assets/Logo/Orbit Group.jpg'
+import Unilever         from '@/assets/Logo/Unilever.jpg'
+import PawPalace        from '@/assets/Logo/PawPalace.jpg'
+import Saintmartin      from '@/assets/Logo/SaintmartinParibahan.jpg'
+import ApicalLogo       from '@/assets/Logo/ApicalInteriors.jpg'
+import GahwaLogo        from '@/assets/Logo/GahwaPremiumCafe.jpg'
+import KloudLogo        from '@/assets/Logo/KT_logo.jpeg'
 
 export default {
   name: 'WorksSection',
