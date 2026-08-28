@@ -5,6 +5,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
   base: '/', // Root path for username.github.io sites
+  // Public folder files are automatically copied to dist root
   build: {
     rollupOptions: {
       output: {
